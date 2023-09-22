@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+div{
+    border: 1px solid transparent;
+    background: #FFF;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 0vh;
+    width: 99vw;
+    height: 95vh;
+    box-shadow: none;
+    z-index: -100;
+}
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 29vw;
+    height: 77.1vh;
+    background: #FFF;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    width: 65vw;
+    height: 77.1vh;
+}
+.right{
+    position: absolute;
+    top: 80vh;
+    width: 99vw;
+    height: 14.2vh;
+    background: #000;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 7.34vh;
+    width: 100%;
+    background: #FFF;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 92vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #FFF;
+}
+::-webkit-scrollbar{
+    width: 0.5em;
+}
+::-webkit-scrollbar-track{
+    background: hsl(0, 0%, 33%);
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb{
+    background: hsl(0, 2%, 12%);
+    border-radius: 100vw;
+    border-color: hsl(0, 0%, 33%);;
+}
+.left_slide{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 100%;
+    width: 20vw;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+}
+.pfp{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: space-evenly;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #D9D9D9;
+}
