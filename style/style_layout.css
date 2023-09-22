@@ -3,7 +3,7 @@
 }
 div{
     border: 1px solid transparent;
-    background: #FFF;
+    background: #000;
 }
 .main{
     display: flex;
@@ -22,12 +22,12 @@ div{
     justify-content: center;
     width: 29vw;
     height: 77.1vh;
-    background: #FFF;
+    background: #000;
 }
 .middle{
     display: flex;
     flex-direction: column;
-    background: #FFF;
+    background: #000;
     width: 65vw;
     height: 77.1vh;
 }
@@ -45,7 +45,7 @@ div{
     flex-direction: row;
     height: 7.34vh;
     width: 100%;
-    background: #FFF;
+    background: #000;
 }
 .list{
     display: flex;
@@ -55,20 +55,24 @@ div{
     flex-wrap: wrap;
     height: 92vh;
     width: 100%;
+    border-radius: 20px;
     overflow-x: hidden;
-    background-color: #FFF;
+    background: linear-gradient(90deg, #B850C9 0%, #AD68B8 40.63%, #AE66BA 58.85%, #8C1F9D 100%)
 }
 ::-webkit-scrollbar{
     width: 0.5em;
+    height: 0.5em;
 }
 ::-webkit-scrollbar-track{
     background: hsl(0, 0%, 33%);
     border-radius: 100vw;
+    height: 0.5em;
 }
 ::-webkit-scrollbar-thumb{
     background: hsl(0, 2%, 12%);
     border-radius: 100vw;
-    border-color: hsl(0, 0%, 33%);;
+    border-color: hsl(0, 0%, 33%);
+    height: 0.5em;
 }
 .left_slide{
     display: flex;
@@ -78,7 +82,7 @@ div{
     height: 100%;
     width: 20vw;
     border-radius: 30px;
-    background-color: #D9D9D9;
+    background: linear-gradient(90deg, #B850C9 0%, #AD68B8 40.63%, #AE66BA 58.85%, #8C1F9D 100%)
 }
 .pfp{
     display: flex;
@@ -90,5 +94,8 @@ div{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #D9D9D9;
+    background-color: transparent;
+}
+.list div{
+    background-color: transparent;
 }
